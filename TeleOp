@@ -1,1 +1,16 @@
+package org.first.inspires.ftc.teamcode ;
 
+import com.qualcomm.robotcore.eventloop.opmode.OpMode ;
+import com.qualcomm.robotcore.eventloop.opmode.TeleOp ;
+
+@TeleOp()
+public class HelloWorld extends OpMode {
+    @override 
+    public void innit() {
+        telementry.addData("hello" , "world") ;
+    }
+    @override
+    public void loop (){
+    
+    }
+    }
